@@ -1,0 +1,7 @@
+###  .gitignore ###
+
+### vendors ###
+/vendor/
+
+### Php unit ###
+.phpunit.result.cache

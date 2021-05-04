@@ -1,0 +1,33 @@
+{
+    "name": "ddelima/yamlconfigloader",
+    "description": "A lightweigth configuration file loader that supports yaml",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "De Lima David",
+            "email": "buba71@sfr.fr"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "scripts": {
+        "phpunit": "vendor\\bin\\phpunit"
+    },
+    "require": {
+        "php": ">=7.4",
+        "symfony/yaml": "^5.3@beta"
+    },
+    "autoload": {
+        "psr-4": {
+            "BUBA71\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BUBA71\\TESTS\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}

@@ -1,0 +1,17 @@
+user:
+  class: User
+  storage:
+    class: SessionStorage
+    cookie_name: PHP_SESS_ID
+
+providers: 
+  users:
+    entity:
+      class: ClassName
+      property: email
+
+services:
+  ServiceClassName1:
+    parameters:
+      parameter1: 1335
+      parameter2: 65465
