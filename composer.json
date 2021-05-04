@@ -1,5 +1,5 @@
 {
-    "name": "ddelima/yamlconfigloader",
+    "name": "buba71/yamlconfigloader",
     "description": "A lightweigth configuration file loader that supports yaml",
     "type": "library",
     "license": "MIT",
