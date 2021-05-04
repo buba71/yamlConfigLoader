@@ -1,1 +1,1 @@
-## A lightweitght configuration file loader that supports Yaml format
+## A basic configuration file loader that supports Yaml format
