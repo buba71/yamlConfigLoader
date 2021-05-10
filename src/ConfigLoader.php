@@ -6,18 +6,18 @@ namespace BUBA71;
 
 use Symfony\Component\Yaml\Yaml;
 
-
 final class ConfigLoader
 {
   /**
    * @var string
    */
-  private string $itemsKeys = '';
+  private string $parameters = '';
 
   /**
    * @var array
    */
   private array $data = [];
+
   /**
    * @param string $file
    * 
@@ -39,15 +39,15 @@ final class ConfigLoader
       
       if (is_array($value)) {
 
-        $this->itemsKeys .= $key . '.';
+        $this->parameters .= $key . '.';
         $this->extractDataParameters($value);
 
       } else {
-        $id = $this->itemsKeys . $key;
+        $id = $this->parameters . $key;
         $this->data[$id] = $value;
       }      
     }
-    $this->itemsKeys = '';   
+    $this->parameters = '';   
   }  
 
   /**

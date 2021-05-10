@@ -9,7 +9,6 @@ use BUBA71\ConfigLoader;
 
 final class ConfigLoaderTest extends TestCase
 {
-  private int $count = 0;
   /**
    * @dataProvider provideYamlData
    * @return void
